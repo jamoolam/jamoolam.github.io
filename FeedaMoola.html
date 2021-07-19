@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+    Web Development & Design Foundations with HTML5
+    Felke-Morris 9th Edition
+
+    Author: Jamal Mizyed
+    Date:   07/17/2021
+	  Edited using Virtual Studio Code
+-->
+<title>Jamoola's Website!</title>
+<meta charset="utf-8">
+<meta name= "viewport" content = "width = device-width, initial-scale = 1.0">
+<link rel="stylesheet" href="project.css">
+
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Feed-A-Moola</h1>
+		</header>
+		<nav>
+			<ul class="button">
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="About Me.html">Website Resume</a></li>
+				<li><a href="My Artwork.html">Cool Things</a></li>
+				<li><a href="Commissions.html">Feed-A-Moola</a></li>
+                <li><a href="Privacy Policy.html">Privacy Policy</a></li>	
+			</ul>
+        </nav>
+<main>
+    <div class="floatleft">
+      <p>
+        You might be asking yourself what this part of the website is.
+        Look, college isn't cheap. Gas prices are only going up, child support keeps breathing down my neck, and bills keep piling up.
+        Most people are too prideful to accept donations/hand-outs. I am most certainly not one of those people.
+        The average person under these circumstances would go and get a job, but not I.
+        Allow me to introduce you to Feed-A-Moola! 
+      </p> 
+    </div>
+			<div>
+				<table>
+            <tr>
+                <th><strong>$5</strong></th>
+			          <td>What are you, broke? What am I going to do with $5? Stop being a cheapskate!</td>
+            </tr>
+			      <tr>
+			          <th><strong>$25</strong></th>
+			          <td>Now you're starting to speak my language! Thank you very much for your genorosity!</td>
+            </tr>
+            <tr>
+                <th><strong>$50</strong></th>
+			          <td>I think I'm in love :) Feel free to not think twice about this decision.</td>	
+            </tr>
+		</table>	
+    </div>
+    <div>
+      <h4>
+        As you can see, your generosity can go a long way. Some people would say this is a "waste of your money", or "don't give this bum any of your money!".
+        Don't listen to those people. Listen to me. I know what's best for you, and that is to donate your money to me.
+        If you have more questions about the rates, feel free to email me with your questions and I will respond as soon as possible! 
+      </h4>
+		</div>
+</main>
+	<h2>Donating</h2>
+	<p>
+    If you've scrolled down this far on the page, you may as well just see it all the way through, right?
+    Just enter your information and subscribe to my email list for more information. The asteriks indicate a required field.
+  </p>
+	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+					<label for="myName">*Name:</label>
+        <input type="text" id="myName" name="myName" required = "required">
+                    <label for="myEmail">*E-mail:</label>
+        <input type="text" type="email" id="myEmail" name="myEmail" required = "required">
+                    <label for="cardNumber">*Payment:</label>
+        <input type="text" id="cardNumber" name="cardNumber" required = "required">
+                    <label id="cardNumber" name="cardNumber"></label>
+        <input type="submit" value="Submit" id="mySubmit" required = "required">
+	</form>
+
+    <a id="mobile" href="tel:(708)897-6885">(708)897-6885</a>
+    <span id="desktop">(708)897-6885</span>
+</body>
+<footer>
+	Copyright &copy; Jamoola Said So<br>
+	<a href="mailto:jamalmizyed08@gmail.com">jamalmizyed08@gmail.com</a>
+</footer>
+</html>
